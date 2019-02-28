@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimattionWord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pause.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundTurn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Buttons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Consts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Help.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Letter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimattionWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pause.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundTurn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Buttons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dict.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Letter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="3charLen.txt" />
+    <Text Include="4charLen.txt" />
+    <Text Include="5charLen.txt" />
+    <Text Include="OGLdpf.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="finnish.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="foundWord.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="move.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="newLevel.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="press.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="tada.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="kirbyss.ttf" />
+    <Font Include="lines.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="finnishShow.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="form.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gameScreen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gameScreen1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="helpPage.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mainBK.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="nextLevel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="soundOnT.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="startT.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
